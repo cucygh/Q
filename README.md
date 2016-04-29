@@ -1,5 +1,12 @@
 # Q.js
 ## 让移动单页面项目开发更简单
+### 安装
+
+``` shell
+cd Q
+npm install
+```
+
 ### 一、快速上手
 
 ``` html
@@ -12,10 +19,7 @@
 </head>
 <body>
 	<app></app>
-	<script src="/javascripts/Q.js" charset="utf-8"></script>
- 	<script src="/javascripts/tags/app.js" charset="utf-8"></script>
- 	<script src="/javascripts/tags/page.js" charset="utf-8"></script>
- 	<script src="/javascripts/tags/view.js" charset="utf-8"></script>
+ 	<script src="/javascripts/index.min.js" charset="utf-8"></script>
 	<script type="text/script">
 		var q=new Q;
 		q.view({
