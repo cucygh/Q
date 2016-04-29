@@ -1,0 +1,22 @@
+body,
+html {
+  height: 100%; }
+
+.app {
+  position: absolute;
+  background: #1ba9ba;
+  color: #fff;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+  .app .view {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+  .app .swiper-slide:nth-child(2) {
+    background: #f00 !important; }
+
+/*# sourceMappingURL=style.css.map */
